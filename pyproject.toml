@@ -5,13 +5,13 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "wmainfo-py"
 version = "2.0.0"
-description = "A modern Python library for parsing WMA/WMV file metadata"
+description = "A Python library for parsing WMA/WMV file metadata"
 readme = "README.md"
 requires-python = ">=3.8"
-license = {text = "Artistic/Perl"}
+license = { text = "Artistic/Perl" }
 authors = [
-    {name = "Original: Dan Sully (Perl)", email = ""},
-    {name = "Python Port: Darren Kirby", email = "bulliver@gmail.com"}
+    { name = "Original: Dan Sully (Perl)", email = "" },
+    { name = "Python Port: Darren Kirby", email = "bulliver@gmail.com" }
 ]
 keywords = ["wma", "wmv", "asf", "metadata", "audio", "video", "parser"]
 classifiers = [
@@ -30,6 +30,10 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules",
     "Typing :: Typed",
 ]
+
+[project.urls]
+Homepage = "https://github.com/DarrenKirby/wmainfo-py"
+Issues = "https://github.com/DarrenKirby/wmainfo-py/issues"
 
 [project.optional-dependencies]
 dev = [
